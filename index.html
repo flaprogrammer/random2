@@ -1,0 +1,42 @@
+﻿<html>
+	<head>
+		<title>Генерация случайный массивов</title>
+		<script type="text/javascript" src='js/jquery-2.1.1.min.js'></script>
+		<script type="text/javascript" src='js/zclip/jquery.zclip.js'></script>
+		<script type="text/javascript" src='js/script.js'></script>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<div class="block b_array js_array_gen">
+			<h2>Массив</h2>
+			<label>
+				<span>Количество элементов</span>
+				<input class='js_quantity' type="number" value='10'>
+			</label>
+			<label>
+				<span>Диапазон</span>
+				<input class='js_min_val' type="number" value='0'> —
+				<input class='js_max_val' type="number" value='100'>
+			</label>
+			<button type="button" class="btn btn-default">Сгенерировать и скопировать в буфер</button>
+			<textarea name="" class="js_output" cols="40" rows="7"></textarea>
+		</div>
+
+		<div class="block b_object js_object_gen">
+			<h2>Объект</h2>
+			<label>
+				<span>Количество элементов</span>
+				<input class='js_quantity' type="number" value='10'>
+			</label>
+			<label>
+				<span>Диапазон</span>
+				<input class='js_min_val' type="number" value='0'> —
+				<input class='js_max_val' type="number" value='100'>
+			</label>
+			<button type="button" class="btn btn-default">Сгенерировать и скопировать в буфер</button>
+			<textarea name="" class="js_output" cols="40" rows="7"></textarea>
+		</div>
+	</body>
+</html>
